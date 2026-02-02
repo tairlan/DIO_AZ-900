@@ -1,0 +1,17 @@
+Nesse modulo focamos no aprendizados dos beneficios do Azure 
+
+O Microsoft Azure é uma plataforma de computação em nuvem que oferece diversos benefícios, entre eles:
+
+Escalabilidade: permite aumentar ou reduzir recursos (CPU, memória, armazenamento) conforme a necessidade.
+
+Alta disponibilidade: infraestrutura distribuída globalmente, garantindo maior estabilidade e menor risco de indisponibilidade.
+
+Redução de custos: modelo de pagamento sob demanda (pay-as-you-go), evitando gastos com servidores físicos.
+
+Flexibilidade: suporte a diferentes sistemas operacionais, linguagens e ferramentas.
+
+Segurança: recursos avançados de proteção de dados, controle de acesso e conformidade com padrões internacionais.
+
+Facilidade de gerenciamento: criação, monitoramento e manutenção de máquinas virtuais pelo Portal do Azure.
+
+Integração com ferramentas Microsoft: fácil integração com Windows Server, Active Directory, SQL Server e outros serviços.
