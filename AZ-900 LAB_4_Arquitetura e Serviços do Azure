@@ -1,0 +1,178 @@
+## 📐 Componentes de Arquitetura do Microsoft Azure
+
+A arquitetura do Azure é organizada em **componentes geográficos, lógicos e administrativos**, que garantem **alta disponibilidade, escalabilidade, segurança e governança**. Esses componentes incluem **regiões, zonas de disponibilidade, recursos, grupos de recursos, assinaturas e grupos de gerenciamento** .
+
+---
+
+## 🌍 Regiões do Azure
+
+Uma **região do Azure** é uma área geográfica que contém **um ou mais datacenters fisicamente próximos**, conectados por redes de alta velocidade.
+
+### Características técnicas:
+
+* Mais de **60 regiões globais**, cobrindo **mais de 140 países**
+* Projetadas para:
+
+  * Reduzir **latência**
+  * Atender requisitos de **residência e conformidade de dados**
+  * Garantir **escala e disponibilidade**
+
+📌 Exemplo: Brazil South, East US, West Europe
+
+
+---
+
+## 🏢 Datacenters do Azure
+
+Os **datacenters** são instalações físicas onde os serviços do Azure são executados.
+
+### Características:
+
+* Equipados com:
+
+  * Energia
+  * Resfriamento
+  * Rede independentes
+* Componente base das regiões e zonas de disponibilidade
+
+
+---
+
+## 🛡️ Zonas de Disponibilidade (Availability Zones)
+
+As **zonas de disponibilidade** são **datacenters separados fisicamente dentro da mesma região**, projetados para oferecer **alta disponibilidade**.
+
+### Características técnicas:
+
+* Protegem contra falhas de datacenter
+* Cada zona possui:
+
+  * Energia
+  * Resfriamento
+  * Rede independentes
+* Conectadas por **fibra óptica privada**
+* Ideal para aplicações críticas
+
+📌 Permite arquiteturas tolerantes a falhas
+
+
+---
+
+## 🔁 Pares de Regiões (Region Pairs)
+
+O Azure organiza as regiões em **pares**, garantindo **recuperação de desastres** e **continuidade do serviço**.
+
+### Características:
+
+* Distância mínima de **300 milhas** entre regiões do par
+* Replicação automática para alguns serviços
+* Atualizações aplicadas de forma **sequencial**, reduzindo indisponibilidade
+* Prioridade de recuperação em caso de falha regional
+
+📌 Exemplo: Brazil South ↔ South Central US
+
+
+---
+
+## 🏛️ Regiões Soberanas do Azure
+
+As **regiões soberanas** atendem **requisitos específicos de governo e conformidade**.
+
+### Azure Governamental (EUA):
+
+* Instância separada do Azure comercial
+* Isolamento físico total
+* Acesso restrito a pessoal autorizado
+* Atende órgãos federais, estaduais e locais dos EUA
+
+
+
+---
+
+## 🧩 Recursos do Azure
+
+Os **recursos** são os **componentes individuais** usados para criar soluções na nuvem.
+
+### Exemplos:
+
+* Máquinas Virtuais
+* Armazenamento
+* Redes
+* Bancos de dados
+
+📌 Todo serviço criado no Azure é um recurso
+
+
+---
+
+## 📦 Grupos de Recursos (Resource Groups)
+
+Um **grupo de recursos** é um **contêiner lógico** para organizar e gerenciar recursos relacionados.
+
+### Características técnicas:
+
+* Um recurso pertence a **apenas um grupo de recursos**
+* Recursos:
+
+  * Podem estar em **regiões diferentes**
+  * Podem ser **movidos entre grupos**
+* Um aplicativo pode usar **vários grupos de recursos**
+
+📌 Facilita gerenciamento, monitoramento e exclusão em conjunto
+
+
+---
+
+## 🧾 Assinaturas do Azure
+
+A **assinatura do Azure** é a unidade de **controle administrativo e financeiro**.
+
+### Funções principais:
+
+* **Cobrança**:
+
+  * Faturas e relatórios separados por assinatura
+* **Controle de acesso**:
+
+  * Define quais recursos usuários podem criar e gerenciar
+
+📌 Uma conta do Azure pode ter várias assinaturas
+
+
+---
+
+## 🗂️ Grupos de Gerenciamento (Management Groups)
+
+Os **grupos de gerenciamento** permitem **governança em larga escala**.
+
+### Características:
+
+* Contêm **várias assinaturas**
+* Políticas e regras aplicadas no grupo:
+
+  * São **herdadas pelas assinaturas**
+* Usado para:
+
+  * Controle
+  * Conformidade
+  * Padronização corporativa
+
+
+
+---
+
+## 🧱 Hierarquia do Azure (Visão Geral)
+
+```
+Grupo de Gerenciamento
+   ↓
+Assinatura
+   ↓
+Grupo de Recursos
+   ↓
+Recursos
+```
+
+Essa hierarquia garante **organização, segurança e governança** em ambientes Azure .
+
+
