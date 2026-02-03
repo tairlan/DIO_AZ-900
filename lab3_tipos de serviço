@@ -1,0 +1,96 @@
+Perfeito, João — li o anexo 👍
+Segue um **resumo técnico, direto e organizado** sobre os **tipos de serviço do Microsoft Azure**, conforme o material do módulo **AZ-900 – Conceitos de Nuvem**.
+
+---
+
+📌 Tipos de Serviço de Nuvem no Microsoft Azure
+
+O Azure oferece três **modelos principais de serviço em nuvem**, que diferem pelo **nível de controle**, **responsabilidade** e **caso de uso**: **IaaS, PaaS e SaaS**. Esses modelos seguem o conceito de **pagamento conforme o uso** e o **modelo de responsabilidade compartilhada** .
+
+
+
+🧱 IaaS – Infrastructure as a Service (Infraestrutura como Serviço)
+
+No modelo **IaaS**, o Azure fornece a **infraestrutura básica de TI**, como:
+
+* Máquinas virtuais (VMs)
+* Servidores
+* Armazenamento
+* Redes
+* Sistemas operacionais
+
+ Características técnicas:
+
+* Modelo mais **flexível**
+* Total controle sobre o sistema operacional e configurações
+* Ideal para **migração de servidores locais (on-premises)** para a nuvem
+* Responsabilidade do cliente sobre:
+
+  * Sistema operacional
+  * Patches
+  * Aplicações
+  * Configurações de rede
+
+📌 Exemplo típico: Azure Virtual Machines
+
+⚙️ PaaS – Platform as a Service (Plataforma como Serviço)
+
+O PaaS fornece uma **plataforma pronta** para **desenvolver, testar e implantar aplicações**, sem a necessidade de gerenciar a infraestrutura subjacente.
+
+Características técnicas:
+
+* Foco total no desenvolvimento de aplicações
+* O Azure gerencia:
+
+  * Sistema operacional
+  * Servidores
+  * Atualizações
+  * Escalabilidade
+* O cliente gerencia apenas:
+
+  * Código da aplicação
+  * Dados
+  * Configurações do app
+
+📌 Ideal para times de desenvolvimento e DevOps
+
+☁️ SaaS – Software as a Service (Software como Serviço)
+
+No SaaS, o usuário consome **aplicações prontas**, acessadas via internet, sem qualquer preocupação com infraestrutura ou plataforma.
+
+Características técnicas:
+
+* Modelo baseado em **assinatura**
+* Nenhuma gestão técnica pelo usuário
+* Atualizações, segurança e disponibilidade são de responsabilidade do provedor
+
+📌 Exemplos:
+
+* Microsoft 365
+* Outlook
+* Email e calendários corporativos
+
+
+Modelo de Responsabilidade Compartilhada
+
+O material destaca o **modelo de responsabilidade compartilhada**, onde:
+
+Quanto mais próximo do IaaS**, maior a responsabilidade do cliente
+Quanto mais próximo do SaaS**, maior a responsabilidade do Azure
+
+| Modelo | Responsabilidade do Cliente | Responsabilidade do Azure |
+| ------ | --------------------------- | ------------------------- |
+| IaaS   | Alta                        | Média                     |
+| PaaS   | Média                       | Alta                      |
+| SaaS   | Baixa                       | Total                     |
+
+
+Comparação Geral
+
+IaaS → Mais controle e flexibilidade
+PaaS → Mais produtividade no desenvolvimento
+SaaS → Mais simplicidade e rapidez no uso
+
+Todos seguem o modelo **pay-as-you-go** (pague apenas pelo que usar) .
+
+
